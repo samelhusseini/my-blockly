@@ -1,46 +1,29 @@
-# blockly-plugin-plugin [![Built on Blockly](https://tinyurl.com/built-on-blockly)](https://github.com/google/blockly)
+# my-blockly [![Built on Blockly](https://tinyurl.com/built-on-blockly)](https://github.com/google/blockly)
 
-<!--
-  - TODO: Edit plugin description.
-  -->
-A [Blockly](https://www.npmjs.com/package/blockly) plugin that ...
+A custom Blockly.
 
 ## Installation
 
 ### Yarn
 ```
-yarn add blockly-plugin-plugin
+yarn add my-blockly
 ```
 
 ### npm
 ```
-npm install blockly-plugin-plugin --save
+npm install my-blockly --save
 ```
 
 ## Usage
 
-<!--
-  - TODO: Update usage.
-  -->
 ```js
-import * as Blockly from 'blockly';
-import {Plugin} from 'blockly-plugin-plugin';
+import * as Blockly from 'my-blockly';
 
 // Inject Blockly.
 const workspace = Blockly.inject('blocklyDiv', {
   toolbox: toolboxCategories,
 });
-
-// Initialize plugin.
-const plugin = new Plugin(workspace);
-plugin.init();
 ```
-
-## API
-
-<!--
-  - TODO: describe the API.
-  -->
 
 ## License
 Apache 2.0
