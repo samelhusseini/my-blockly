@@ -1,0 +1,53 @@
+{
+  "name": "my-blockly",
+  "version": "0.0.0",
+  "description": "My custom Blockly.",
+  "scripts": {
+    "build": "blockly-scripts build",
+    "clean": "blockly-scripts clean",
+    "lint": "blockly-scripts lint",
+    "prepublishOnly": "npm run clean && npm run build",
+    "start": "blockly-scripts start"
+  },
+  "main": "./dist/index.js",
+  "module": "./src/index.js",
+  "unpkg": "./dist/index.js",
+  "author": "",
+  "keywords": [
+    "blockly",
+    "custom"
+  ],
+  "homepage": "https://github.com/samelhusseini/my-blockly/tree/master#readme",
+  "bugs": {
+    "url": "https://github.com/samelhusseini/my-blockly/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samelhusseini/my-blockly.git",
+    "directory": "."
+  },
+  "license": "Apache 2.0",
+  "directories": {
+    "dist": "dist",
+    "src": "src"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "dependencies": {
+    "blockly": "^3.20200402.1"
+  },
+  "devDependencies": {
+    "@blockly/dev-scripts": "^0.20200403.5",
+    "@blockly/dev-tools": "^0.20200313.6"
+  },
+  "eslintConfig": {
+    "extends": "@blockly/eslint-config"
+  },
+  "browserslist": [
+    "defaults",
+    "IE 11",
+    "IE_Mob 11"
+  ]
+}
