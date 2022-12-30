@@ -39,7 +39,7 @@
     "blockly": "^3.20200402.1"
   },
   "devDependencies": {
-    "@blockly/dev-scripts": "^0.20200403.6",
+    "@blockly/dev-scripts": "^1.2.28",
     "@blockly/dev-tools": "^0.20200313.7"
   },
   "eslintConfig": {
